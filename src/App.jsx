@@ -121,7 +121,7 @@ export default function App() {
               <p className="mt-3 text-white/70">Trust built through outcomes: speed, clarity, measurable growth.</p>
             </div>
             <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-              {["They 2x’d our qualified demos in 6 weeks.", 'Our site loads in 0.8s and ranks on page 1.', 'Automation saves ~40 hours/month for support.'].map((quote, idx) => (
+              {["They doubled qualified demos in six weeks.", 'Our site loads in 0.8s and ranks on page 1.', 'Automation saves 40+ hours per month for support.'].map((quote, idx) => (
                 <div key={idx} className="rounded-xl border border-white/10 bg-white/5 p-6">
                   <div className="flex gap-1 text-amber-400 mb-3">
                     {Array.from({ length: 5 }).map((_, i) => (
@@ -129,7 +129,7 @@ export default function App() {
                     ))}
                   </div>
                   <p className="text-white/90">“{quote}”</p>
-                  <p className="mt-3 text-sm text-white/60">Founder, Growth-stage startup</p>
+                  <p className="mt-3 text-sm text-white/60">Founder, growth-stage startup</p>
                 </div>
               ))}
             </div>
